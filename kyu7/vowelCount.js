@@ -10,13 +10,13 @@
 function getCount(str) {
     let result = 0
     
-    for (let x = 0; x < str.length; x++){
+    for (let i = 0; i < str.length; i++){
      result += 
-      (str[x] === "a" ||
-      str[x] === "e" ||
-      str[x] === "i" ||
-      str[x] === "o" ||
-      str[x] === "u")? 1 : 0;
+      (str[i] === "a" ||
+      str[i] === "e" ||
+      str[i] === "i" ||
+      str[i] === "o" ||
+      str[i] === "u")? 1 : 0;
     }
     
     return result;

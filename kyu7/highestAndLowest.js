@@ -1,4 +1,4 @@
-// https://www.codewars.com/kata/554b4ac871d6813a03000035/javascript 
+// https://www.codewars.com/kata/554b4ac871d6813a03000035/javascript
 
 // In this little assignment you are given a string of space separated numbers, and have to return the highest and lowest number.
 
@@ -13,10 +13,9 @@
 // There will always be at least one number in the input string.
 // Output string must be two numbers separated by a single space, and highest number is first.
 
-function highAndLow(numbers){
+function highAndLow(numbers) {
+  let newArr = numbers.split(" ").map((num) => parseInt(num, 10));
+  let result = [Math.max(...newArr), Math.min(...newArr)].join(" ");
 
-    let newArr = numbers.split(" ").map(num => parseInt(num, 10))
-    let result = [Math.max(...newArr), Math.min(...newArr)].join(" ")
-   
-   return result
-  }
+  return result;
+}

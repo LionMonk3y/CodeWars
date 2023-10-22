@@ -14,15 +14,15 @@
 // "GTAT" --> "CATA"
 
 function DNAStrand(dna) {
-    const complementaryBases = {
-      A: "T",
-      T: "A",
-      G: "C",
-      C: "G"
-    };
-  
-    return dna
-      .split("")
-      .map(base => complementaryBases[base])
-      .join("");
-  }
+  const complementaryBases = {
+    A: "T",
+    T: "A",
+    G: "C",
+    C: "G",
+  };
+
+  return dna
+    .split("")
+    .map((base) => complementaryBases[base])
+    .join("");
+}

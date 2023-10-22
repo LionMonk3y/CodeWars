@@ -11,16 +11,16 @@
 // XO("zzoo") => false
 
 function XO(str) {
-    let newStr = str.split("")
-    let numX = 0
-    let numO = 0
-    
-    for (let i = 0; i < newStr.length; i++)
-      if (newStr[i].toLowerCase() === "x"){
-        numX += 1
-      }else if(newStr[i].toLowerCase() === "o"){
-        numO += 1
-      }
-    
-    return numX === numO
+  let newStr = str.split("");
+  let numX = 0;
+  let numO = 0;
+
+  for (let i = 0; i < newStr.length; i++)
+    if (newStr[i].toLowerCase() === "x") {
+      numX += 1;
+    } else if (newStr[i].toLowerCase() === "o") {
+      numO += 1;
+    }
+
+  return numX === numO;
 }

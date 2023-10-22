@@ -11,16 +11,16 @@
 // friend ["Ryan", "Kieran", "Mark"] `shouldBe` ["Ryan", "Mark"]
 
 function friend(friends) {
-    let myFriends = [];
-  
-    for (let i = 0; i < friends.length; i++) {
-      if (friends[i].length === 4) {
-        myFriends.push(friends[i]);
-      }
+  let myFriends = [];
+
+  for (let i = 0; i < friends.length; i++) {
+    if (friends[i].length === 4) {
+      myFriends.push(friends[i]);
     }
-  
-    return myFriends;
   }
+
+  return myFriends;
+}
 
 //   function friend(friends){
 //     return friends.filter(n => n.length === 4)

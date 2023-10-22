@@ -4,16 +4,15 @@
 
 // Note: a and b are not ordered!
 
-
 function getSum(a, b) {
-    if (a > b) {
-      [a, b] = [b, a];
-    }
-  
-    let sum = 0;
-    for (let i = a; i <= b; i++) {
-      sum += i;
-    }
-  
-    return sum;
+  if (a > b) {
+    [a, b] = [b, a];
   }
+
+  let sum = 0;
+  for (let i = a; i <= b; i++) {
+    sum += i;
+  }
+
+  return sum;
+}
