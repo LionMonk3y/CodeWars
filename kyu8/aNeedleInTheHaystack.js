@@ -8,12 +8,10 @@
 
 // Example(Input --> Output)
 
-// ["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"] --> "found the needle at position 5" 
+// ["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"] --> "found the needle at position 5"
 
 function findNeedle(haystack) {
-  
-    const found = haystack.findIndex((x) => x === "needle");
-    
-    return `found the needle at position ${found}`
-  
-  }
+  const found = haystack.findIndex((x) => x === "needle");
+
+  return `found the needle at position ${found}`;
+}

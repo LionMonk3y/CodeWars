@@ -7,7 +7,12 @@
 // For example, when the input is green, output should be yellow.
 
 function updateLight(current) {
-    return current === "green" ? "yellow": current === "yellow" ? "red": "green" ;
+  return current === "green"
+    ? "yellow"
+    : current === "yellow"
+    ? "red"
+    : "green";
+    
   //First attempt
   //   if(current === "green"){
   //     return "yellow"
@@ -16,4 +21,4 @@ function updateLight(current) {
   //   }else if(current === "red"){
   //     return "green"
   //   }
-  }
+}

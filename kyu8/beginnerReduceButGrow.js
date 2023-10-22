@@ -4,6 +4,6 @@
 
 // [1, 2, 3, 4] => 1 * 2 * 3 * 4 = 24
 
-function grow(x){
-    return x.reduce((a,b) => a * b )
-    }
+function grow(x) {
+  return x.reduce((a, b) => a * b);
+}

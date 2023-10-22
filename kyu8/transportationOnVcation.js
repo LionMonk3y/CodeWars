@@ -1,10 +1,10 @@
 /* https://www.codewars.com/kata/568d0dd208ee69389d000016/solutions/javascript */
 
 function rentalCarCost(d) {
-    return 40 * d - (d >= 7 ? 50 : d >= 3 ? 20 : 0);
-  }
-  
-  /* Second attempt
+  return 40 * d - (d >= 7 ? 50 : d >= 3 ? 20 : 0);
+}
+
+/* Second attempt
   
     let cost = 40 * d;
   
@@ -17,8 +17,8 @@ function rentalCarCost(d) {
     return cost;
   }
   */
-  
-  /* First attempt
+
+/* First attempt
     
   if ( d < 3){
     return 40 * d
