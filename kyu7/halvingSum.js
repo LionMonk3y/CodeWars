@@ -13,5 +13,5 @@ function halvingSum(n) {
     sum += n;
     n = Math.floor(n / 2);
   }
-  return sum;
+  return sum
 }
